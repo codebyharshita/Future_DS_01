@@ -1,120 +1,87 @@
-Sales_Dashboard 📊📈
-📌 Table of Contents
+📊 Sales_Dashboard — Power BI Analytics Report
+📁 Project Overview
 
-Overview
+Sales_Dashboard is a Power BI–based analytical solution designed to evaluate historical retail performance and uncover data-driven insights related to revenue trends, product contribution, regional performance, and sales distribution.
+The dashboard transforms raw transactional data into interactive visual intelligence to support strategic business decisions and operational efficiency.
 
-Key Features
+✨ Key Features
 
-Tech Stack
+📌 Comprehensive KPI Panel — Revenue, Orders, Net Units Sold, Average Order Value
 
-Data Source
+📈 Time-Series Sales Trend — Seasonal behavior & growth patterns
 
-Dashboard Structure
+🌍 Regional Sales Performance — Country-level business impact
 
-How to Use
+🛒 Category Sales Contribution — Product category-wise revenue share
 
-Business Insights
+🏆 Top-Performing Products — Based on revenue & units sold
 
-Future Enhancements
+🎛 Interactive Filters & Slicers — Country & time-period selection
 
-Contact
+🎨 Modern Dark-Theme UI — Clean layout with neon accents for clarity
 
-Overview 🚀
+🛠 Technology Stack
+Tool	Purpose
+Power BI Desktop	Data modeling, dashboards, DAX measures
+Power Query	ETL operations & cleaning
+DAX	Advanced calculations & KPIs
+Excel / CSV	Source dataset
+📂 Dataset Description
 
-Sales_Dashboard is an interactive analytics solution developed in Power BI to uncover actionable insights from historical retail data.
-It empowers business stakeholders with visually compelling insights about Revenue, Orders, Units Sold, Category Contribution, Regional Performance, and Product Trends.
+The dataset consists of historical retail transactions containing:
 
-Designed with a modern dark theme + neon highlight UI, it provides an engaging analytical experience and supports informed decision-making.
+Invoice number & date
+Product description
+Quantity sold
+Unit price
+Country of transaction
 
-Key Features ✨
+📊 Dashboard Structure
+Section	Components
+Header Panel	Project title & last refresh date
 
-Sales Trend Over Time showcasing seasonality and growth behavior.
+KPI Indicators	Revenue, Orders, AOV, Units sold
 
-Regional Sales Breakdown with top contributing countries.
+Trend View	Sales movement over time
 
-Category-Wise Revenue Contribution for product strategy decisions.
+Regional View	Country-wise revenue distribution
 
-Top Products Listing by revenue and unit sales.
+Category View	Revenue by product category
 
-Interactive Filtering (Country & Date Range).
+Top Products Table	Best-selling items by revenue/volume
 
-KPI Performance Cards for fast decision-making.
+Filters	Date & Country slicers
+🎯 Key Insights
 
-Clean & User-Friendly UI focused on clarity and accessibility.
+🇬🇧 The United Kingdom drives the highest revenue contribution
 
-Tech Stack 🛠
-Technology	Purpose
-Power BI Desktop	Visualization & dashboard development
-Power Query (M)	Data cleaning, transformation & ETL
-DAX	Measures & analytical calculations
-Excel	Raw dataset source
-Data Source 💾
+🛍 Home Decor & Kitchenware categories dominate total sales
 
-Historical retail sales transactional dataset containing:
+📆 Significant sales rise toward year-end, indicating seasonal demand
 
-Invoice Date
+🥇 Products like White Hanging Heart T-Light Holder show strong performance in both revenue and quantity sold
 
-Product Description
+📌 Future Enhancements
 
-Quantity
+📊 RFM-based customer segmentation
 
-Unit Price
+🔮 Forecasting models for sales prediction
 
-Country
+💰 Profitability analysis using cost & margin data
 
-Dashboard Structure 🖼
-Section	Details
-Header	Title + Latest dataset refresh date
-KPIs	Revenue, Orders, Units Sold, AOV
-Sales Trend Chart	Revenue progression over time
-Regional Sales Performance	Country-wise analysis
-Category Sales Contribution	Revenue by product category
-Top Products Analysis	Card/table view for top sellers
-Slicers	Filters for date & country
+🔍 Drill-through navigation for detailed item insights
 
-How to Use 🚀
-Clone the Repository
-git clone https://github.com/codebyharshita/Future_DS_01.git
+👤 Author
 
-Open in Power BI
+Harshita Goyal
+Data Analytics & Business Intelligence
 
-Download & install Power BI Desktop
+🔗 LinkedIn: www.linkedin.com/in/harshita-goyal-186b7a398
 
-Open the file:
+Thank You.
 
-Sales_Dashboard.pbix
-
-
-If needed, update dataset path:
-
-Home → Transform Data → Data Source Settings → Change Source
+📥 How to Access the Dashboard
+git clone https://github.com/codebyharshita/Sales_Dashboard.git
 
 
-Click Refresh
-
-Business Insights 🎯
-
-United Kingdom is the highest revenue-generating region.
-
-Kitchenware & Home Decor dominate category contribution.
-
-Sales show significant seasonal spikes near year-end.
-
-Products like Candle Holders & Cakestands generate highest performance in both units & revenue.
-
-Future Enhancements 💡
-
-Customer Segmentation using RFM & demographic breakdown
-
-Forecasting models for predictive sales analytics
-
-Cost integration for margin & profitability analysis
-
-Drill-through pages for deeper product-level exploration
-
-Contact ✉️
-
-📌 For collaboration or feedback, please connect on LinkedIn:
-www.linkedin.com/in/harshita-goyal-186b7a398
-
-⭐ If you found this project helpful, consider giving the repository a star!
+Open the .pbix file using Power BI Desktop and refresh data if required
