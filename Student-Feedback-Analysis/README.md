@@ -92,6 +92,15 @@ Student-Feedback-Analysis/
 └── README.md
 
 
+## 🔎 How to View the Code
+
+- The complete analysis and Python code is available in the Jupyter Notebook:
+  👉 `student feedback.ipynb`
+  
+- The HTML file is an exported version for presentation purposes.
+
+
+
 ## 🚀 Conclusion
 This project demonstrates how **data analytics can transform feedback into insights**.  
 It reflects practical skills in **data handling, analysis, visualization, and storytelling**, aligned with real-world internship expectations.
